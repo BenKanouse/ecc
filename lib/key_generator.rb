@@ -9,6 +9,6 @@ class KeyGenerator
   end
 
   def public_key
-    # elliptic_curve_origin * private key
+    # elliptic curve origin * private key
   end
 end
