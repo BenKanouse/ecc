@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    ecc (0.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,6 +53,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  guard
-  guard-minitest
-  minitest
+  ecc!
+  guard (~> 2.12, >= 2.12.5)
+  guard-minitest (~> 2.4, >= 2.4.4)
+  minitest (~> 5.6, >= 5.6.1)
